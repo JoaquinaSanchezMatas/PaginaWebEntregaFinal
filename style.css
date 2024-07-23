@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Road+Rage&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+main{
+
+ width: 70%;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+header{
+    height: 150px;
+ width: auto;
+ background-color: #BE1622;
+ image-resolution: 150px;
+}
+
+
+#nosotrostitulo{
+width: 30;
+height: 400px;
+padding-left: 330px;
+padding-right: 330px;
+background-color: rgb(255, 255, 255);
+align-content: center;
+}
+
+#nosotrostitulo h1{
+    font-family: "Road Rage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #BE1622;
+    display: flex;
+    justify-content: center;
+}
+
+#nosotrostitulo p{
+    color: black;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+#bienvenidatitulo{
+width: 30;
+height: 850px;
+padding-left: 320px;
+padding-right: 70px;
+padding-top: 150px;
+background-image: url(./imagenes/bienvenida.jpg);
+background-size: cover;
+justify-content: center;
+}
+
+#bienvenidatitulo h1{
+    font-family: "Road Rage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 130px;
+    color: aliceblue;
+}
+
+#bienvenidatitulo p{
+    margin-top: 20px;
+}
+
+#beneficios{
+    width: 30;
+    height: 965px;
+    padding-top: 200px;
+    padding-right: 330px;
+    background-image: url(./imagenes/fond\ bienv_Mesa\ de\ trabajo\ 1.jpg);
+    background-size: 1910px;
+}
+
+#beneficios h1{
+    font-family: "Road Rage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: aliceblue;
+    text-align: end;
+    padding-top: 100px;
+}
+
+#beneficios p{
+    text-align: end;
+    padding-top: 30px;
+}
+
+#comprar{
+    width: auto;
+    height: 680px;
+    background-image: url(./imagenes/final\ fondo_Mesa\ de\ trabajo\ 1\ copia.jpg);
+    background-size: cover;
+}
+
+#comprar h1{
+    font-family: "Road Rage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: #BE1622;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+#comprar p{
+    color: black;
+    padding-top: 20px;
+    text-align: justify;
+    padding-left: 330px;
+    padding-right: 330px;
+}
+
+#botoncoleccion{
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 45px;
+    border-radius: 30px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 810px;
+    border-style: none;
+}
+
+
+#botoncoleccion:hover {
+    background-color: #BE1622;
+    font-weight: bold;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  font-style: light;
+}
+
+nav{
+position: fixed;
+    padding-left: 150px;
+    padding-right: 80px;
+    background-color: white;
+    width: 1925px;
+    height: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-family: "Plus Jakarta Sans", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: bold;
+ font-style: normal;
+}
+
+.navform{
+    position: relative;
+    padding-right: 50px;
+    background-color: white;
+    width: 1900px;
+    height: 100px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ font-family: "Plus Jakarta Sans", sans-serif;
+ font-optical-sizing: auto;
+ font-weight: bold;
+ font-style: normal;
+
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BE1622;
+}
+
+.acolor:hover{
+     color: white;
+}
+
+
+#botoncomprar{
+    background-color: #BE1622;
+    color: rgb(255, 255, 255);
+    width: 220px;
+    height: 45px;
+    border-radius: 30px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+    border-style: none;
+}
+
+#botoncomprar:hover{
+    color: #BE1622;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #BE1622;
+    text-align: center;
+    display: inherit;
+    padding-left: 300px;
+    padding-right: 350px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+footer p{
+    color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+}
+
+
+form{
+    width: auto;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    margin-left: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    font-style: light;
+}
+
+.containeruno{
+    width: 310px;
+    height: 780px;
+    margin-top: 120px;
+    margin-right: 120px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+
+.formulariobg{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    background-size: cover;
+    background-image: url(./imagenes/fondo\ form.jpg)
+}
+
+.formulariobg h1{
+    font-family: "Road Rage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: aliceblue;
+    padding-top: 240px;
+    padding-right: 10px;
+}
+
+.formulariobg .hablemos{
+
+    text-align: center;
+    padding-right: 260px;
+}
+
+.bodycarrousel{
+    width: auto;
+    background-color: #BE1622;
+}
+
+.bodycarrousel h1{
+    width: auto;
+    padding-left: 490px;
+    font-family: "Road Rage", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    color: aliceblue;
+}
+
+.container{
+    width: 100%;
+    height: 52vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgcontainer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.slide_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.imgslide{
+    display: flex;
+    align-items: center;
+    height: 270px;
+    width: 270px;
+    filter: saturate(10%);
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+}
+
+.button{
+    position: fixed;
+    width: 270px;
+    height: 270px;
+    transition: 0.7s;
+    background-color: rgba(0, 0, 0, 0.479);
+    border-radius: 50px;
+    align-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+  font-style: light;
+}
+
+.button:hover{
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+
+#sliderdos:target ~ .imgcontainer #imgdos,
+#sliderdos:target ~ .imgcontainer #buttondos{
+    width: 370px;
+    height: 370px;
+    background-color: transparent;
+    filter: saturate(100%);
+    color: transparent;
+}
+
+#slidertres:target ~ .imgcontainer #imgtres,
+#slidertres:target ~ .imgcontainer #buttontres{
+    width: 370px;
+    height: 370px;
+    background-color: transparent;
+    filter: saturate(100%);
+    color: transparent;
+}
+
+
+#slidercinco:target ~ .imgcontainer #imgcinco,
+#slidercinco:target ~ .imgcontainer #buttoncinco{
+    width: 370px;
+    height: 370px;
+    background-color: transparent;
+    filter: saturate(100%);
+    color: transparent;
+}
+
+#sliderseis:target ~ .imgcontainer #imgseis,
+#sliderseis:target ~ .imgcontainer #buttonseis{
+    width: 370px;
+    height: 370px;
+    background-color: transparent;
+    filter: saturate(100%);
+    color: transparent;
+}
+
+#slidersiete:target ~ .imgcontainer #imgsiete,
+#slidersiete:target ~ .imgcontainer #buttonsiete{
+    width: 370px;
+    height: 370px;
+    background-color: transparent;
+    filter: saturate(100%);
+    color: transparent;
+}
+
+
+#sliderocho:target ~ .imgcontainer #imgocho,
+#sliderocho:target ~ .imgcontainer #buttonocho{
+    width: 370px;
+    height: 370px;
+    background-color: transparent;
+    filter: saturate(100%);
+    color: transparent;
+}
+
+
+
+.img{height: 370px;}
